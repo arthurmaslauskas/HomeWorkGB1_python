@@ -22,20 +22,20 @@
 # result = find_cranes(num)
 # print(f" Petya complite {result}, Katya complite {result}, Sergey complite {result}")
 
-def billet_point(ticket_number):
-    ticket_str = str(ticket_number)
-    ticket_lenght = len(ticket_str) // 2
+# def billet_point(ticket_number):
+#     ticket_str = str(ticket_number)
+#     ticket_lenght = len(ticket_str) // 2
     
-    first_ticket = sum(int(digit) for digit in ticket_str[:ticket_lenght])
-    two_ticket = sum(int(digit) for digit in ticket_str[ticket_lenght:])
-    return first_ticket == two_ticket
+#     first_ticket = sum(int(digit) for digit in ticket_str[:ticket_lenght])
+#     two_ticket = sum(int(digit) for digit in ticket_str[ticket_lenght:])
+#     return first_ticket == two_ticket
 
 
-ticket_user = int(input("Write your lucky number's: "))
+# ticket_user = int(input("Write your lucky number's: "))
 
-result = billet_point(ticket_user)
+# result = billet_point(ticket_user)
 
-if result:
-    print("Your WINNNER!")
-else:
-    print("Sorry, your LOOSSEE")
+# if result:
+#     print("Your WINNNER!")
+# else:
+#     print("Sorry, your LOOSSEE")
